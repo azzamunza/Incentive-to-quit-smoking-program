@@ -62,7 +62,7 @@ npm install
 # Run development server
 npm run dev
 
-# Build for production
+# Build for production (static export)
 npm run build
 
 # Start production server
@@ -71,6 +71,27 @@ npm start
 # Run linting
 npm run lint
 ```
+
+## 🌐 Deployment
+
+### View Online
+
+The website is deployed to GitHub Pages and can be viewed at:
+**https://azzamunza.github.io/Incentive-to-quit-smoking-program/**
+
+### Deploy to GitHub Pages
+
+This repository is configured for automatic deployment to GitHub Pages:
+
+1. **Enable GitHub Pages:**
+   - Go to repository **Settings** → **Pages**
+   - Set **Source** to **GitHub Actions**
+
+2. **Push changes:**
+   - The GitHub Actions workflow automatically builds and deploys on every push
+   - View deployment status in the **Actions** tab
+
+For detailed deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md).
 
 ## 🌐 Development
 
