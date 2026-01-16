@@ -133,7 +133,7 @@ export default function Stage1Infographic() {
                 Verification Method
               </h4>
               <p className="text-sm text-gray-700 pl-8">
-                DNA-based hair test to analyse history. 3-month biological history verifies 3-month biological history of nicotine use to confirm qualification.
+                DNA-based hair test to analyse history. 3-month biological history verifies previous nicotine use to confirm qualification.
               </p>
             </div>
 

@@ -157,7 +157,7 @@ export default function Stage2Infographic() {
                 Immediate Feedback
               </h4>
               <p className="text-sm text-gray-700 pl-8">
-                Digital &ldquo;Test Strip&rdquo; graphic eliminates from Orange to Green to show successful weekly result.
+                Digital &ldquo;Test Strip&rdquo; graphic transitions from Orange to Green to show successful weekly result.
               </p>
             </div>
 

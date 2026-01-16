@@ -1,25 +1,14 @@
 'use client'
 
-import { motion, useScroll, useTransform } from 'framer-motion'
-import { useRef } from 'react'
+import { motion } from 'framer-motion'
 import Stage1Infographic from './Stage1Infographic'
 import Stage2Infographic from './Stage2Infographic'
 import Stage3Infographic from './Stage3Infographic'
 import Stage4Infographic from './Stage4Infographic'
 
 export default function InfographicJourney() {
-  const containerRef = useRef<HTMLDivElement>(null)
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ['start end', 'end start']
-  })
-
-  // Animate the road path as user scrolls
-  const pathProgress = useTransform(scrollYProgress, [0, 1], [0, 1])
-
   return (
     <div 
-      ref={containerRef}
       className="relative bg-gradient-to-b from-gray-100 via-gray-50 to-blue-50 py-20"
       id="infographic-journey"
     >
@@ -99,7 +88,8 @@ export default function InfographicJourney() {
             strokeWidth="100"
             strokeLinecap="round"
             initial={{ pathLength: 0 }}
-            style={{ pathLength: pathProgress }}
+            animate={{ pathLength: 1 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
           />
           
           {/* Road center line dashes */}
@@ -134,7 +124,8 @@ export default function InfographicJourney() {
             strokeLinecap="round"
             strokeDasharray="20 30"
             initial={{ pathLength: 0 }}
-            style={{ pathLength: pathProgress }}
+            animate={{ pathLength: 1 }}
+            transition={{ duration: 2, ease: "easeInOut", delay: 0.2 }}
           />
         </svg>
 
