@@ -2,11 +2,7 @@
 
 import StickyHeader from '@/components/StickyHeader'
 import Hero from '@/components/Hero'
-import TimelineStep from '@/components/TimelineStep'
-import Stage1GPGateway from '@/components/Stage1GPGateway'
-import Stage2ChemistRoutine from '@/components/Stage2ChemistRoutine'
-import Stage3Rewards from '@/components/Stage3Rewards'
-import Stage4Recognition from '@/components/Stage4Recognition'
+import InfographicJourney from '@/components/InfographicJourney'
 import EconomicAnalysis from '@/components/EconomicAnalysis'
 
 export default function Home() {
@@ -16,58 +12,8 @@ export default function Home() {
       
       <Hero />
 
-      <section
-        id="how-it-works"
-        className="py-20 bg-white"
-        aria-labelledby="how-it-works-heading"
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 id="how-it-works-heading" className="text-3xl sm:text-4xl font-bold text-deep-teal mb-4">
-              How Clean Air Rewards Would Work
-            </h2>
-            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              This proposed four-stage programme is designed to support participants
-              on their journey to becoming smoke-free with verification, routine testing, rewards, and recognition.
-            </p>
-          </div>
-
-          <div className="space-y-8">
-            <TimelineStep
-              number={1}
-              title="GP Gateway"
-              description="Participants would begin their journey with professional medical support and biological verification through their trusted general practitioner."
-            >
-              <Stage1GPGateway />
-            </TimelineStep>
-
-            <TimelineStep
-              number={2}
-              title="Chemist Routine"
-              description="Regular testing at local pharmacies would ensure ongoing verification and provide convenient support throughout the cessation journey."
-            >
-              <Stage2ChemistRoutine />
-            </TimelineStep>
-
-            <TimelineStep
-              number={3}
-              title="Rewards Programme"
-              description="Participants would earn recognition and financial incentives as they progress through three achievement tiers, providing motivation at every milestone."
-            >
-              <Stage3Rewards />
-            </TimelineStep>
-
-            <TimelineStep
-              number={4}
-              title="Official Recognition"
-              description="Participants would celebrate their success with official Australian Government recognition and enjoy the long-term benefits of a smoke-free lifestyle."
-              isLast={true}
-            >
-              <Stage4Recognition />
-            </TimelineStep>
-          </div>
-        </div>
-      </section>
+      {/* Main Infographic Journey - Replaces the old timeline sections */}
+      <InfographicJourney />
 
       <EconomicAnalysis />
 
