@@ -14,7 +14,7 @@ export default function EconomicAnalysis() {
   ]
 
   const maxValue = 1000
-  const chartHeight = 300
+  const chartHeight = 350
 
   return (
     <section id="economic-impact" className="py-20 bg-gray-50">
@@ -27,21 +27,21 @@ export default function EconomicAnalysis() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-deep-teal mb-4">
-            Economic Impact Analysis
+            Projected Economic Impact Analysis
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Health savings overtake programme costs within 3 years, delivering long-term
+            Projections show that health savings would overtake programme costs within 3 years, delivering long-term
             value for participants and the healthcare system.
           </p>
         </motion.div>
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <div className="relative" style={{ height: chartHeight + 60 }}>
+          <div className="relative" style={{ height: 450 }}>
             <svg
               viewBox={`0 0 600 ${chartHeight + 60}`}
               className="w-full"
               role="img"
-              aria-label="Economic analysis chart showing programme costs versus health savings over 10 years"
+              aria-label="Projected economic analysis chart showing programme costs versus health savings over 10 years"
             >
               <motion.text
                 x="50"
@@ -226,9 +226,9 @@ export default function EconomicAnalysis() {
             transition={{ delay: 0.2 }}
           >
             <DollarSign className="w-10 h-10 text-deep-teal mb-3" aria-hidden="true" />
-            <h3 className="text-xl font-bold text-gray-900 mb-2">Cost Efficiency</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Projected Cost Efficiency</h3>
             <p className="text-gray-700 text-sm">
-              Programme costs are offset by reduced healthcare expenditure on smoking-related
+              Programme costs would be offset by reduced healthcare expenditure on smoking-related
               illnesses within 3 years.
             </p>
           </motion.div>
@@ -241,9 +241,9 @@ export default function EconomicAnalysis() {
             transition={{ delay: 0.3 }}
           >
             <Heart className="w-10 h-10 text-eucalyptus-green mb-3" aria-hidden="true" />
-            <h3 className="text-xl font-bold text-gray-900 mb-2">Health Benefits</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Projected Health Benefits</h3>
             <p className="text-gray-700 text-sm">
-              Reduced hospitalisations, GP visits, and medication costs create substantial
+              Reduced hospitalisations, GP visits, and medication costs would create substantial
               savings for the healthcare system.
             </p>
           </motion.div>
@@ -256,9 +256,9 @@ export default function EconomicAnalysis() {
             transition={{ delay: 0.4 }}
           >
             <TrendingUp className="w-10 h-10 text-deep-teal mb-3" aria-hidden="true" />
-            <h3 className="text-xl font-bold text-gray-900 mb-2">Long-term Value</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Projected Long-term Value</h3>
             <p className="text-gray-700 text-sm">
-              By year 10, health savings nearly triple the programme investment, delivering
+              By year 10, health savings would nearly triple the programme investment, delivering
               exceptional return on investment.
             </p>
           </motion.div>

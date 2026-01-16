@@ -24,10 +24,10 @@ export default function Hero() {
             Clean Air Rewards
           </h1>
           <p className="text-xl sm:text-2xl mb-4 text-balance">
-            Australia&apos;s Innovative Smoking Cessation Programme
+            A Proposed Smoking Cessation Programme for Australia
           </p>
           <p className="text-lg sm:text-xl mb-12 max-w-3xl mx-auto opacity-90 text-balance">
-            A data-driven, incentive-based initiative that integrates with My Health Record
+            A data-driven, incentive-based proposal designed to integrate with My Health Record
             and pharmacy networks to support Australians on their journey to quit smoking.
           </p>
         </motion.div>

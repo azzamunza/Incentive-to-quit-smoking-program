@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Clean Air Rewards - Australian Government Smoking Cessation Programme',
-  description: 'A data-driven, incentive-based smoking cessation programme integrating with My Health Record and pharmacy networks.',
+  title: 'Clean Air Rewards - Proposed Smoking Cessation Programme for Australian Government',
+  description: 'A proposal for a data-driven, incentive-based smoking cessation programme to integrate with My Health Record and pharmacy networks.',
 }
 
 export default function RootLayout({

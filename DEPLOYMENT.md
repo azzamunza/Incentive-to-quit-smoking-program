@@ -1,6 +1,6 @@
 # GitHub Pages Deployment Guide
 
-This document explains how to deploy the Clean Air Rewards website to GitHub Pages.
+This document explains how to deploy the Clean Air Rewards proposal website to GitHub Pages.
 
 ## Automatic Deployment (Recommended)
 
