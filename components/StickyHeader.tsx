@@ -39,7 +39,7 @@ export default function StickyHeader() {
             </div>
             <div>
               <h1 className="text-lg font-bold text-deep-teal">Clean Air Rewards</h1>
-              <p className="text-xs text-gray-600">Australian Government Initiative</p>
+              <p className="text-xs text-gray-600">Proposed for Australian Government</p>
             </div>
           </div>
 

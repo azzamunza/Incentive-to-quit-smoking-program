@@ -1,10 +1,10 @@
 # Clean Air Rewards - Smoking Cessation Programme Proposal
 
-A production-ready, high-fidelity proposal website for the Australian Government's "Clean Air Rewards" initiative - a data-driven, incentive-based smoking cessation programme.
+A production-ready, high-fidelity proposal website presenting "Clean Air Rewards" - a proposed data-driven, incentive-based smoking cessation programme for consideration by the Australian Government.
 
 ## 🌟 Overview
 
-Clean Air Rewards is an innovative smoking cessation programme that integrates with existing Australian health services including My Health Record and the pharmacy network. This website serves as a comprehensive proposal demonstration showcasing the programme's four-stage approach, economic viability, and participant benefits.
+Clean Air Rewards is a proposed innovative smoking cessation programme designed to integrate with existing Australian health services including My Health Record and the pharmacy network. This website serves as a comprehensive proposal for the Australian Government, demonstrating the programme's four-stage approach, economic viability, and potential participant benefits.
 
 ## 🚀 Features
 
@@ -40,9 +40,10 @@ Four scroll-triggered stages with custom animations:
 
 ### Content Features
 - Australian English spelling throughout (programme, optimise, colour)
-- Integration with existing health infrastructure (My Health Record, pharmacy network)
-- Clear participant journey from initiation to certification
+- Proposed integration with existing health infrastructure (My Health Record, pharmacy network)
+- Clear proposed participant journey from initiation to certification
 - Economic justification with data-driven insights
+- Presented as a proposal for government consideration
 
 ## 🛠️ Tech Stack
 
@@ -159,8 +160,8 @@ This is a demonstration project. For questions or suggestions, please open an is
 
 ## 📧 Contact
 
-This is a proposal demonstration website for illustrative purposes. All information represents a conceptual programme design.
+This is a proposal website for illustrative purposes. All information represents a conceptual programme design submitted for Australian Government consideration. This programme is not currently available.
 
 ---
 
-© 2026 Australian Government Initiative (Proposal Demonstration)
+© 2026 Clean Air Rewards Proposal - Submitted for Australian Government Consideration

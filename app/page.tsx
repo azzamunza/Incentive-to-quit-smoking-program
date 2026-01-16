@@ -24,11 +24,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 id="how-it-works-heading" className="text-3xl sm:text-4xl font-bold text-deep-teal mb-4">
-              How Clean Air Rewards Works
+              How Clean Air Rewards Would Work
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Follow our four-stage programme designed to support your journey
-              to becoming smoke-free with verification, routine testing, rewards, and recognition.
+              This proposed four-stage programme is designed to support participants
+              on their journey to becoming smoke-free with verification, routine testing, rewards, and recognition.
             </p>
           </div>
 
@@ -36,7 +36,7 @@ export default function Home() {
             <TimelineStep
               number={1}
               title="GP Gateway"
-              description="Begin your journey with professional medical support and biological verification through your trusted general practitioner."
+              description="Participants would begin their journey with professional medical support and biological verification through their trusted general practitioner."
             >
               <Stage1GPGateway />
             </TimelineStep>
@@ -44,7 +44,7 @@ export default function Home() {
             <TimelineStep
               number={2}
               title="Chemist Routine"
-              description="Regular testing at your local pharmacy ensures ongoing verification and provides convenient support throughout your cessation journey."
+              description="Regular testing at local pharmacies would ensure ongoing verification and provide convenient support throughout the cessation journey."
             >
               <Stage2ChemistRoutine />
             </TimelineStep>
@@ -52,7 +52,7 @@ export default function Home() {
             <TimelineStep
               number={3}
               title="Rewards Programme"
-              description="Earn recognition and financial incentives as you progress through three achievement tiers, providing motivation at every milestone."
+              description="Participants would earn recognition and financial incentives as they progress through three achievement tiers, providing motivation at every milestone."
             >
               <Stage3Rewards />
             </TimelineStep>
@@ -60,7 +60,7 @@ export default function Home() {
             <TimelineStep
               number={4}
               title="Official Recognition"
-              description="Celebrate your success with official Australian Government recognition and enjoy the long-term benefits of your smoke-free lifestyle."
+              description="Participants would celebrate their success with official Australian Government recognition and enjoy the long-term benefits of a smoke-free lifestyle."
               isLast={true}
             >
               <Stage4Recognition />
@@ -74,18 +74,19 @@ export default function Home() {
       <section id="get-started" className="py-20 bg-gradient-to-br from-deep-teal to-eucalyptus-green text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-            Ready to Begin Your Journey?
+            Support This Proposal
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Talk to your GP today about joining the Clean Air Rewards programme
-            and take the first step towards a healthier, smoke-free future.
+            This programme is proposed for consideration by the Australian Government.
+            If you support this initiative, learn more about existing smoking cessation resources
+            and share your feedback with health authorities.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#overview"
               className="inline-block bg-white text-deep-teal px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg"
             >
-              Learn More
+              Learn More About the Proposal
             </a>
             <a
               href="https://www.healthdirect.gov.au/smoking"
@@ -105,7 +106,7 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-bold mb-4">Clean Air Rewards</h3>
               <p className="text-gray-400 text-sm">
-                An Australian Government initiative supporting smoking cessation through
+                A proposed programme for the Australian Government supporting smoking cessation through
                 data-driven incentives and professional health integration.
               </p>
             </div>
@@ -157,8 +158,8 @@ export default function Home() {
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
             <p>
-              &copy; 2026 Australian Government. This is a proposal demonstration website.
-              All information is for illustrative purposes.
+              &copy; 2026 Clean Air Rewards Proposal. This is a proposal website submitted for
+              Australian Government consideration. This programme is not currently available.
             </p>
           </div>
         </div>
